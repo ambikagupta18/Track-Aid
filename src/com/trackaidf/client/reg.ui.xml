@@ -1,0 +1,52 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<d:MaterialHeader ui:field="header">
+			<d:MaterialNavBar height="90px" ui:field="navBar">
+				<d:MaterialImage paddingLeft="300"
+					url="https://lh3.googleusercontent.com/jAQwD4upABQbFPydEH0CCBvcj_IGutXPK7kmVoXHuDbsRhtf53hjvcCvWsMdMRAZl758VA=s85"></d:MaterialImage>
+
+				<d:MaterialNavBrand ui:field="nb"
+					fontSize="3.2em" text=" VOLUNTEER REGISTRATION FORM "
+					paddingLeft="10" />
+			</d:MaterialNavBar>
+		</d:MaterialHeader>
+		<d:MaterialRow></d:MaterialRow>
+		<d:MaterialRow></d:MaterialRow>
+	<d:MaterialRow>	
+	<d:MaterialTextBox label = "NAME" ui:field="t1" iconSize="LARGE" iconType="ACCOUNT_CIRCLE"  grid="s4" offset="s4" ></d:MaterialTextBox>
+	</d:MaterialRow>
+	<d:MaterialRow>
+	<d:MaterialTextBox label = "PHONE" ui:field="t2" iconType="PHONE" grid="s4" offset="s4"  ></d:MaterialTextBox>
+	</d:MaterialRow>
+	<d:MaterialRow>
+	<d:MaterialTextBox label = "EMAIL" ui:field="t3" iconType="LOCAL_POST_OFFICE" grid="s4" offset="s4" ></d:MaterialTextBox>
+	</d:MaterialRow>
+	<d:MaterialRow>
+	<d:MaterialTextBox label = "EVENT PARTICIPATION " ui:field="t4" iconType="GROUP" grid="s4" offset="s4" ></d:MaterialTextBox>
+	</d:MaterialRow>
+	
+	<d:MaterialRow>
+	<d:MaterialTextBox label = "LEVEL OF EVENT" ui:field="t5" iconType="EVENT"  grid="s4" offset="s4" ></d:MaterialTextBox>
+	</d:MaterialRow>
+		
+	<d:MaterialRow>
+	<d:MaterialTextBox label="PASSWORD" ui:field="t6"   grid="s4" offset="s4"  />
+	</d:MaterialRow>
+	<d:MaterialRow>
+	<d:MaterialTextBox label = "CONFIRM PASSWORD" ui:field="t7"  grid="s4" offset="s4"  />
+	</d:MaterialRow>
+		<d:MaterialRow>
+	<d:MaterialButton text = "SUBMIT" ui:field="b1" grid="s4" offset="s4"  />
+	</d:MaterialRow>
+		
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

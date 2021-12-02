@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<m:MaterialNavBar>
+<m:MaterialTextBox float="LEFT" text="TRACK-AID Untitled Form" ui:field="ft"/>
+<m:MaterialNavSection float="RIGHT">
+<m:MaterialButton text="Save Form" backgroundColor="WHITE" iconType="GET_APP" textColor="AMBER" ui:field="sf"></m:MaterialButton>
+<m:MaterialLink text="New Question" iconType="ADD" ui:field="ml5" />
+ <m:MaterialLink text="Add" iconType="TOC" iconPosition="RIGHT" textColor="WHITE" activates="dp-2"/>
+ <!-- My Drop Down -->
+ <m:MaterialDropDown activator="dp-2" constrainWidth="true">
+ <m:MaterialLink text="Short answer" iconType="SORT" ui:field="ml1"/>
+ <m:MaterialLink text="Multiple Choice" iconType="PANORAMA_FISH_EYE" ui:field="ml2"/>
+ <m:MaterialLink text="Checkbox" iconType="CROP_DIN" ui:field="ml3"/>
+ <m:MaterialLink text="Date" iconType="DATE_RANGE" ui:field="ml6"/>
+ <m:MaterialLink text="File Upload" iconType="LINK" ui:field="ml4"/>
+ 
+ </m:MaterialDropDown>
+ </m:MaterialNavSection>
+</m:MaterialNavBar>
+<m:MaterialRow>
+<m:MaterialRow></m:MaterialRow>
+<m:MaterialColumn grid="s10">
+<m:MaterialTextBox placeholder="Untitled Question" ui:field="t"></m:MaterialTextBox></m:MaterialColumn>
+<m:MaterialColumn ><m:MaterialButton text="SAVE QUESTION" iconType="DONE" ui:field="b"></m:MaterialButton></m:MaterialColumn>
+</m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder> 

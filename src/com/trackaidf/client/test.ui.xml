@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	 xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Welcome To Track-Aid</h1>
+		 <d:MaterialImage url="https://lh3.googleusercontent.com/iNFd8c7XCOTzemQo48os18VVXKfU12Sn6cJvF61wveb8oV0lmoM7IzxewzLWTmwHlmV5ng=s85" type="MATERIALBOXED"/>
+	
+	<d:MaterialRow>
+	<d:MaterialCardTitle></d:MaterialCardTitle>
+	</d:MaterialRow>
+	<d:MaterialRow>
+	<d:MaterialTextBox ui:field="t1" label="Username" iconType="ACCOUNT_CIRCLE" iconSize="MEDIUM" grid="s4" offset="s4"></d:MaterialTextBox>
+	</d:MaterialRow>
+	<d:MaterialRow>
+	<d:MaterialTextBox ui:field="t2" label="Password" iconType="LOCK" grid="s4" offset="s4"></d:MaterialTextBox></d:MaterialRow>	
+	<d:MaterialRow >
+	<d:MaterialButton ui:field="b1" text="Login" grid="s4" offset="s4"></d:MaterialButton>
+	</d:MaterialRow>
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 

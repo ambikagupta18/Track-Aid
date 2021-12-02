@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		 <d:MaterialRow>
+	<d:MaterialNavBar shadow="2">
+    <d:MaterialNavBrand href="#Test" float="LEFT" text="WELCOME TO TRACK-AID"/>
+	</d:MaterialNavBar>
+  </d:MaterialRow>
+  <d:MaterialImage url="https://ibb.co/htL7XT" type="MATERIALBOXED"/>
+	<h1 style="color:#ffca28" font-style="italic">Event Details</h1> 
+	</g:HTMLPanel>
+</ui:UiBinder> 

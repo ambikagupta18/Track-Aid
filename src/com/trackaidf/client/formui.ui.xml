@@ -1,0 +1,32 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:d="urn:import:gwt.material.design.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		
+	<d:MaterialHeader ui:field="header">
+			<d:MaterialNavBar height="90px" ui:field="navBar">
+				<d:MaterialImage paddingLeft="400"
+					url="https://lh3.googleusercontent.com/jAQwD4upABQbFPydEH0CCBvcj_IGutXPK7kmVoXHuDbsRhtf53hjvcCvWsMdMRAZl758VA=s85"></d:MaterialImage>
+					<d:MaterialNavBrand ui:field="nb"
+					fontSize="3.2em" text="EVENT CREATION FORM"
+					paddingLeft="10" />
+			</d:MaterialNavBar>
+		</d:MaterialHeader>
+		<d:MaterialRow></d:MaterialRow>
+		<d:MaterialRow></d:MaterialRow>
+		<d:MaterialRow>
+		<d:MaterialTextBox ui:field="t0" label="Levels" />
+      <d:MaterialTextArea ui:field="t1" label="Event Name " />
+      <d:MaterialTextArea ui:field="t2" label="About Event"/>
+      <d:MaterialTextArea ui:field="t3" label="Event From"/>
+    <d:MaterialTextArea ui:field="t4" label="Event Till"/>
+    <d:MaterialTextArea ui:field="t5" label="Chief Guest Name" />
+    <d:MaterialButton text="Submit" ui:field="b1" grid="s4" offset="s4"/>
+    </d:MaterialRow>
+    </g:HTMLPanel></ui:UiBinder> 
